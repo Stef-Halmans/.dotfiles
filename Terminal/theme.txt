@@ -1,0 +1,10 @@
+winget install JanDeDobbeleer.OhMyPosh -s winget
+
+install font in Fonts, and set it for the terminal
+
+put the file clean-detailed-custom.omp.json into the folder: C:/Users/stefh/AppData/Local/Programs/oh-my-posh/themes/
+
+notepad/nvim $PROFILE to edit the profile and put the following code inside:
+
+Set-Alias lvim C:\Users\stefh\.local\bin\lvim.ps1
+oh-my-posh init pwsh --config 'C:/Users/stefh/AppData/Local/Programs/oh-my-posh/themes/clean-detailed-custom.omp.json' | Invoke-Expression
