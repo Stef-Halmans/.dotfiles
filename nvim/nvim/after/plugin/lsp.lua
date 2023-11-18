@@ -196,11 +196,12 @@ mason_lspconfig.setup_handlers {
     end
 
     if (server_name == "arduino_language_server") then
+       print("arduino location not set yet")
       require('lspconfig')["arduino_language_server"].setup {
         capabilities = capabilities,
         on_attach = on_attach_server,
         settings = servers[server_name],
-        arduino_config_dir = "C:\\Users\\20203567\\AppData\\Local\\Arduino15\\arduino-cli.yaml"
+        -- arduino_config_dir = "C:\\Users\\20203567\\AppData\\Local\\Arduino15\\arduino-cli.yaml"
       }
     else
       require('lspconfig')[server_name].setup {

@@ -20,6 +20,7 @@
   "neodev.nvim": { "branch": "main", "commit": "7e3f718f43de41053f77b1e8de6de2b759fc4023" },
   "nvim-autopairs": { "branch": "master", "commit": "7747bbae60074acf0b9e3a4c13950be7a2dff444" },
   "nvim-cmp": { "branch": "main", "commit": "11102d3db12c7f8b35265ad0e17a21511e5b1e68" },
+  "nvim-dap": { "branch": "master", "commit": "6cedcb527e264c8f25e86afa8dae74c6692dee51" },
   "nvim-jdtls": { "branch": "master", "commit": "aa04fc0e4d8acbfa43efc6a6f7162b01987257a1" },
   "nvim-lspconfig": { "branch": "master", "commit": "d23c3c3cf27f0afc69208fd277a3094388501af6" },
   "nvim-transparent": { "branch": "main", "commit": "f09966923f7e329ceda9d90fe0b7e8042b6bdf31" },
@@ -38,7 +39,6 @@
   "vim-fugitive": { "branch": "master", "commit": "5f0d280b517cacb16f59316659966c7ca5e2bea2" },
   "vim-rhubarb": { "branch": "master", "commit": "ee69335de176d9325267b0fd2597a22901d927b1" },
   "vim-sleuth": { "branch": "master", "commit": "1cc4557420f215d02c4d2645a748a816c220e99b" },
-  "vimtex": { "branch": "master", "commit": "ad17583ce399b6830b4c2888ef2a12d52c5eb607" },
   "which-key.nvim": { "branch": "main", "commit": "4acffc92953a90a790603bfdab7c92319ab167b1" },
   "zen-mode.nvim": { "branch": "main", "commit": "6e6c963d70a8e47854fa656987666bfb863f9c4e" }
 }

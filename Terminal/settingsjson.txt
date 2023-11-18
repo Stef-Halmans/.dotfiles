@@ -1,0 +1,15 @@
+put the following in settings.json of the terminal, to make sure it has a opacity and the correct font as default, and the scrollbar hidden
+
+"profiles": 
+    {
+        "defaults": 
+        {
+            "font": 
+            {
+                "face": "MesloLGS NF",
+                "size": 11.0
+            },
+            "opacity": 85,
+            "padding": "0, 0, 0, 0",
+            "scrollbarState": "hidden"
+        },

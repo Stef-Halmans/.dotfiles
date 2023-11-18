@@ -65,17 +65,12 @@ require('lazy').setup({
 
   {"folke/zen-mode.nvim", opts = {}},
 
-  -- {
-  --   "dgrbrady/nvim-docker",
-  --    dependencies = {'nvim-lua/plenary.nvim', 'MunifTanjim/nui.nvim'},
-  -- },
-
   -- laravel blade
   {"jwalton512/vim-blade"},
 
   -- {"neoclide/coc.nvim", branch = "release"},
 
-
+  {"mfussenegger/nvim-dap"},
   -- Rust
   {
     "simrat39/rust-tools.nvim",
@@ -129,9 +124,6 @@ require('lazy').setup({
       { 'hrsh7th/cmp-nvim-lsp' },
     },
   },
-
-  -- latex
-  { 'lervag/vimtex' },
 
   -- Useful plugin to show you pending keybinds.
   { 'folke/which-key.nvim',    opts = {} },

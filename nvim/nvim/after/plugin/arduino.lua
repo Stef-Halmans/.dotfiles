@@ -1,0 +1,17 @@
+-- local arduino = require 'arduino'
+-- arduino.setup({
+--     default_fqbn = "arduino:avr:uno",
+--     arduino = "C:\\Program Files\\Arduino CLI",
+--     arduino_config_dir = "C:\\Users\\20203567\\AppData\\Local\\Arduino15",
+--     clangd = require 'mason-core.path'.bin_prefix 'clangd',
+-- })
+--
+-- require 'lspconfig' ['arduino_language_server'].setup {
+--     --on_new_config = arduino.on_new_config,
+--     arduino_config_dir = "C:\\Users\\20203567\\AppData\\Local\\Arduino15\\arduino-cli.yaml"
+-- }
+--
+--
+-- arduino.configure(vim.fn.getcwd())
+--
+-- print(require 'arduino'.configured)
