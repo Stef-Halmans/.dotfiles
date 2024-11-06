@@ -6,7 +6,6 @@ end
 require('github-theme').setup()
 
 vim.cmd('colorscheme github_dark_default')
-vim.cmd('TransparentEnable')
 
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
